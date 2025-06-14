@@ -12,6 +12,8 @@ SQLite: Banco de dados utilizado para armazenamento dos produtos.
 e Logs De Erro Para o Tratamento Eficiente De erros No terminal
 Docker: Para containerização da aplicação.
 
+docker compose run --service-ports --rm web Utiize esse Comando Docker Para Captar Inputs 
+
 | Arquivo / Pasta         | Descrição                                            |
 | ----------------------- | ---------------------------------------------------- |
 | `DataBaseConnection.py` | Gerenciamento da conexão com o banco de dados SQLite |
