@@ -13,22 +13,21 @@ Tkinter: Biblioteca para criação da interface gráfica (se aplicável).
 
 Docker: Para containerização da aplicação.
 
-📂 Estrutura do Projeto
-bash
-Copiar
-Editar
-SuperMercadoDti/
-├── DataBaseConnection.py       # Gerenciamento da conexão com o banco de dados
-├── Dockerfile                  # Arquivo para construção da imagem Docker
-├── InterfaceUsuario.py         # Interface gráfica do usuário
-├── Produto.py                  # Modelo de dados do produto
-├── ProdutoDao.py               # Operações CRUD para produtos
-├── SistemaProdutos.py          # Lógica principal do sistema
-├── docker-compose.yml          # Configuração do Docker Compose
-├── main.py                     # Ponto de entrada da aplicação
-├── produtos.db                 # Banco de dados SQLite
-├── requirements.txt            # Dependências do projeto
-└── README.md                   # Este arquivo
+| Arquivo / Pasta         | Descrição                                            |
+| ----------------------- | ---------------------------------------------------- |
+| `DataBaseConnection.py` | Gerenciamento da conexão com o banco de dados SQLite |
+| `Dockerfile`            | Arquivo para construção da imagem Docker             |
+| `InterfaceUsuario.py`   | Interface gráfica do usuário                         |
+| `Produto.py`            | Modelo de dados do produto                           |
+| `ProdutoDao.py`         | Operações CRUD para produtos                         |
+| `SistemaProdutos.py`    | Lógica principal do sistema                          |
+| `docker-compose.yml`    | Configuração do Docker Compose                       |
+| `main.py`               | Ponto de entrada da aplicação                        |
+| `produtos.db`           | Arquivo do banco de dados SQLite                     |
+| `requirements.txt`      | Lista de dependências Python                         |
+| `README.md`             | Documentação do projeto                              |
+
+
 🚀 Como Executar
 Requisitos
 Python 3.x
