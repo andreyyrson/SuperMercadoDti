@@ -9,8 +9,7 @@ Python 3.x: Linguagem principal do projeto.
 
 SQLite: Banco de dados utilizado para armazenamento dos produtos.
 
-Tkinter: Biblioteca para criação da interface gráfica (se aplicável).
-
+e Logs De Erro Para o Tratamento Eficiente De erros No terminal
 Docker: Para containerização da aplicação.
 
 | Arquivo / Pasta         | Descrição                                            |
